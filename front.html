@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>PORTFÓLIO | Front-end</title>
 </head>
 <body>
   <!-- HEADER -->
     <header class="header-container">
-                <h1>Kaio César</h1>
+        <h1>Kaio César</h1>
         <h2>Front-end Developer</h2>
 
         <div class="social-media">
@@ -21,96 +22,79 @@
     </header>
 
     
-<!-- CARDS -->
+<!-- CARDS-->  
     <main class="container">
         <div class="card-container" id="pag-sobre">
-            <div class="card">
-                <div class="card-wrapper">
-                  <div class="card-img">
-                    <img src="./img/eu.jpg" alt="eu">
-                  </div>
-                    <h2></h2>
+              <img class="img-card" src="./img/eu.jpg" alt="eu">
+                <div class="card-text">
+                  <p>Formado em Técnico em Desenvolvimento de Sistemas pelo Instituto Federal de Brasília, tendo como 
+                    foco o estudo de Front-End utilizando as linguagens HTML, JavaScript e CSS. Além da utilização de APIs,
+                    Node.js e Back-End aplicado com JavaScript, bem como estudos na área de Redes de Computadores.</p>
+                  <p>No momento estou aprimorando meus conhecimentos e talentos em Front-end, desenvolvendo projetos 
+                    que em breve estarão em meu Portfólio e Github.</p>        
                 </div>
-            </div>
-            <div class="card-text">
-            <p>Formado em Técnico em Desenvolvimento de Sistemas pelo Instituto Federal de Brasília, tendo como 
-              foco o estudo de Front-End utilizando as linguagens HTML, JavaScript e CSS. Além da utilização de APIs,
-              Node.js e Back-End aplicado com JavaScript, bem como estudos na área de Redes de Computadores.</p>
-            <p>No momento estou aprimorando meus conhecimentos e talentos em Front-end, desenvolvendo projetos 
-              que em breve estarão em meu Portfólio e Github.</p>        
-            </div>
         </div>
     </main>
 
 
 <!-- PROJECTS -->    
         <section class="projects" id="pag-projeto">
-          <h2> Projetos</h2>
-           
+          <h2>Projetos</h2>
 
             <div class="swiper mySwiper">
-              <h5>Clique no nome do projeto para abri-lo numa nova aba
-                e em "github" para abrir o código do mesmo.</h5>
+              <h5>Clique no nome do projeto para abri-lo numa nova aba e 
+                    em "github" para abrir o código do mesmo.</h5>
+
               <div class="swiper-wrapper">
 
                 <div class="swiper-slide">
-                  <div class="project-img">
-                    <img src="./img/quiz.jpg" alt="Foto do quiz">
-                  </div>
-                  <div class="project-info">
-                    <a href="https://kaiocesarnp.github.io/quizkaio" target="_blank"><h3>QUIZ</h3></a>
-                    <a href="https://github.com/kaiocesarnp/quizkaio" target="_blank"><h4>Github</h4></a>
-                    <p>Jogo interativo de perguntas e respostas.</p>
-                      <p><strong>HTML | JAVASCRIPT/JQuery | CSS</strong></p>
-                  </div>
+                  <img class="project-img" src="./img/quiz.jpg" alt="Foto do quiz">
+                    <div class="project-info">
+                      <a href="https://kaiocesarnp.github.io/quizkaio" target="blank"><h3>QUIZ</h3></a>
+                      <a href="https://github.com/kaiocesarnp/quizkaio" target="_blank"><h4>Github</h4></a>
+                        <p>Jogo interativo de perguntas e respostas.</p>
+                        <p><strong>HTML | JAVASCRIPT/JQuery | CSS</strong></p>
+                    </div>
                 </div>
 
                 <div class="swiper-slide">
-                  <div class="project-img">
-                    <img src="./img/gerador.jpg" alt="Foto de gerador">
-                  </div>
-                  <div class="project-info">
-                    <a href="https://github.com/kaiocesarnp/geradordesenha/" target="_blank"><h3>GERADOR DE SENHA</h3></a>
-                    <a href="https://github.com/kaiocesarnp/geradordesenha" target="_blank"><h4>Github</h4></a>
-                    <p>Gerador de senhas automático.</p>
-                    <p><strong>HTML | JAVASCRIPT | CSS</strong></p>
-                  </div>
+                  <img class="project-img" src="./img/gerador.jpg" alt="Foto de gerador">
+                    <div class="project-info">
+                      <a href="https://github.com/kaiocesarnp/geradordesenha/" target="_blank"><h3>GERADOR DE SENHA</h3></a>
+                      <a href="https://github.com/kaiocesarnp/geradordesenha" target="_blank"><h4>Github</h4></a>
+                        <p>Gerador de senhas automático.</p>
+                        <p><strong>HTML | JAVASCRIPT | CSS</strong></p>
+                    </div>
                 </div>
 
                 <div class="swiper-slide">
-                  <div class="project-img">
-                    <img src="./img/agenda.jpg" alt="Foto de agenda">
-                  </div>
-                  <div class="project-info">
-                    <a href="https://kaiocesarnp.github.io/agenda/" target="_blank"><h3>AGENDA</h3></a>
-                    <a href="https://github.com/kaiocesarnp/agenda" target="_blank"><h4>Github</h4></a>
-                    <p>Agenda de Contatos.</p>
-                    <p><strong>HTML | JAVASCRIPT | CSS</strong></p>
-                  </div>
+                  <img class="project-img" src="./img/agenda.jpg" alt="Foto de agenda">
+                    <div class="project-info">
+                      <a href="https://kaiocesarnp.github.io/agenda/" target="_blank"><h3>AGENDA</h3></a>
+                      <a href="https://github.com/kaiocesarnp/agenda" target="_blank"><h4>Github</h4></a>
+                        <p>Agenda de Contatos.</p>
+                        <p><strong>HTML | JAVASCRIPT | CSS</strong></p>
+                    </div>
                 </div>
 
                 <div class="swiper-slide">
-                  <div class="project-img">
-                    <img src="./img/champions.jpg" alt="Foto de página de viagens">
-                  </div>
-                  <div class="project-info">
-                    <a href="https://www.linkedin.com/in/kaiocesarnp" target="_blank"><h3>VIAGENS</h3></a>
-                    <a href="https://github.com/kaiocesarnp" target="_blank"><h4>Github</h4></a>
-                    <p>Página de vendas de passagens para os países campeões da Copa do Mundo de Futebol FIFA.</p> 
-                    <p><strong>HTML | JAVASCRIPT | CSS</strong></p>                   
-                  </div>
+                  <img class="project-img" src="./img/champions.jpg" alt="Foto de página de viagens">
+                    <div class="project-info">
+                      <a href="https://www.linkedin.com/in/kaiocesarnp" target="_blank"><h3>VIAGENS</h3></a>
+                      <a href="https://github.com/kaiocesarnp" target="_blank"><h4>Github</h4></a>
+                        <p>Página de vendas de passagens para os países campeões da Copa do Mundo de Futebol FIFA.</p> 
+                        <p><strong>HTML | JAVASCRIPT | CSS</strong></p>                   
+                    </div>
                 </div>
 
                 <div class="swiper-slide">
-                  <div class="project-img">
-                    <img src="./img/htmlcssjavascript.jpg" alt="Foto de exercícios">
-                  </div>
-                  <div class="project-info">
-                    <a href="https://github.com/kaiocesarnp/exercicios" target="_blank"><h3>EXERCÍCIOS</h3></a>
-                    <a href="https://github.com/kaiocesarnp/exercicios" target="_blank"><h4>Github</h4></a>
-                    <p>Lista com exercícios incluindo JQuery e Ajax.</p>
-                    <p><strong>HTML | JAVASCRIPT | CSS</strong></p>
-                  </div>
+                  <img class="project-img" src="./img/htmlcssjavascript.jpg" alt="Foto de exercícios">
+                    <div class="project-info">
+                      <a href="https://github.com/kaiocesarnp/exercicios" target="_blank"><h3>EXERCÍCIOS</h3></a>
+                      <a href="https://github.com/kaiocesarnp/exercicios" target="_blank"><h4>Github</h4></a>
+                        <p>Lista com exercícios incluindo JQuery e Ajax.</p>
+                        <p><strong>HTML | JAVASCRIPT | CSS</strong></p>
+                    </div>
                 </div>
 
               </div>
@@ -124,14 +108,14 @@
 
 
 <!-- FOOTER -->
-<footer class="footer">
+<footer>
   <p>Desenvolvido por <a href="https://www.instagram.com/kaiozcesar" target="_blank">Kaio César </a></p> 
 </footer>
     
 
 <button id="back-to-top">HOME</button>
 
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
 <script src="jscript.js"></script>
 
 </body>
