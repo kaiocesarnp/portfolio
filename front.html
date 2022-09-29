@@ -9,32 +9,71 @@
 </head>
 <body>
   <!-- HEADER -->
-    <header class="header-container">
+    <!-- <header class="header-container">
         <h1>Kaio César</h1>
-        <h2>Front-end Developer</h2>
+        <h2>Front-end Developer</h2> -->
+        
+    <!-- <div class="home-img">
+      <img src="./img/desenvolvedor.png" alt="Foto de perfil">
+    </div> -->
 
-        <div class="social-media">
+        <!-- <div class="social-media">
             <a href="#pag-sobre"> Sobre </a>
             <a href="#pag-projeto"> Projetos </a>
             <a href="https://www.linkedin.com/in/kaiocesarnp" target="_blank">Linkedin</a>
             <a href="https://github.com/kaiocesarnp" target="_blank">Github</a>
-        </div>
-    </header>
+        </div> -->
+    <!-- </header> -->
 
-    
-<!-- CARDS-->  
-    <main class="container">
-        <div class="card-container" id="pag-sobre">
-              <img class="img-card" src="./img/eu.jpg" alt="eu">
-                <div class="card-text">
+    <!-- HEADER -->
+    <main>
+      <header class="one">
+        <div class="logo">
+          <!-- <h1>Kaio César</h1>
+          <h2>Front-end Developer</h2> -->
+        </div>
+        <div class="menu">
+          <nav class="nav-list">
+              <a href="#">Home</a>
+              <a href="#pag-sobre">Sobre</a>
+              <a href="#pag-projeto">Projetos</a>
+              <a href="https://www.linkedin.com/in/kaiocesarnp" target="_blank">Linkedin</a>
+              <a href="https://github.com/kaiocesarnp" target="_blank">Github</a>
+          </nav>
+        </div>
+      </header>  
+    </main>
+
+    <section id="home">
+      <div class="home-info">
+        <h1>Olá, sou o Kaio César</h1>
+        <h2>Front-end developer</h2>
+      </div>
+      <div class="home-img">
+        <img src="./img/desenvolvedor.png" alt="Foto de perfil">
+      </div>
+    </section>
+
+    <!--SOBRE-->
+    <section class="about" id="pag-sobre">
+      <div class="max-width">
+          <!-- <h2 class="title">Sobre</h2> -->
+          <div class="about-content">
+              <div class="column left">
+                <img src="./img/eu.jpg" alt="eu"/>
+              </div>
+              <div class="column right">
+                  <!-- <div class="text">Sou Ricardo e sou <span class="typing-2"></span></div> -->
                   <p>Formado em Técnico em Desenvolvimento de Sistemas pelo Instituto Federal de Brasília, tendo como 
                     foco o estudo de Front-End utilizando as linguagens HTML, JavaScript e CSS. Além da utilização de APIs,
                     Node.js e Back-End aplicado com JavaScript, bem como estudos na área de Redes de Computadores.</p>
                   <p>No momento estou aprimorando meus conhecimentos e talentos em Front-end, desenvolvendo projetos 
-                    que em breve estarão em meu Portfólio e Github.</p>        
-                </div>
-        </div>
-    </main>
+                    que em breve estarão em meu Portfólio e Github.</p> 
+                  <!-- <a href="#">Download CV</a> -->
+              </div>
+          </div>
+      </div>
+  </section>
 
 
 <!-- PROJECTS -->    
@@ -54,6 +93,16 @@
                       <a href="https://github.com/kaiocesarnp/quizkaio" target="_blank"><h4>Github</h4></a>
                         <p>Jogo interativo de perguntas e respostas.</p>
                         <p><strong>HTML | JAVASCRIPT/JQuery | CSS</strong></p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <img class="project-img" src="./img/calculadora.jpg" alt="Foto de calculadora">
+                    <div class="project-info" >
+                      <a href="https://github.com/kaiocesarnp/calculadoradeimc" target="_blank"><h3>CALCULADORA DE IMC</h3></a>
+                      <a href="https://github.com/kaiocesarnp/calculadoradeimc" target="_blank"><h4>Github</h4></a>
+                        <p>Calculadora de IMC</p>
+                        <p><strong>HTML | JAVASCRIPT | CSS</strong></p>
                     </div>
                 </div>
 
@@ -103,6 +152,7 @@
             <div class="swiper-button-prev"></div>
             <div class="swiper-pagination"></div>
             <div class="swiper-pagination"></div>
+            <div class="swiper-pagination"></div>
           </div>
         </section>
 
@@ -113,7 +163,7 @@
 </footer>
     
 
-<button id="back-to-top">HOME</button>
+<!-- <button id="back-to-top">HOME</button> -->
 
 
 <script src="jscript.js"></script>
