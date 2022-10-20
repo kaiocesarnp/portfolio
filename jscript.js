@@ -21,7 +21,7 @@ var swiper = new Swiper(".mySwiper", {
         }
     });
 
-  var typed = new Typed(".typing", {
+var typed = new Typed(".typing", {
     strings:["Kaio César"],
     typeSpeed:100,
     backSpeed:60,
