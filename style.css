@@ -86,6 +86,7 @@ body{
   align-items: center;
   justify-content: center;
 }
+
 .home-img img {
   width: 500px;
   height: 500px;
@@ -93,6 +94,7 @@ body{
   box-shadow: 0 10px 10px;
   border-radius: 50%;
 }
+
 @keyframes float {
   0%, 100% {
     transform: translateY(0);
