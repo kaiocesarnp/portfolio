@@ -63,7 +63,6 @@ body{
   display: flex;
   flex-direction: column;
   gap: 15px;
-  text-align: justify;
 }
 
 .home-info h1{
@@ -259,64 +258,53 @@ footer a:hover{
 /* RESPONSIVO */
 
 @media (max-width: 1104px){
-  .one{
+  .nav-list{
     /* justify-content: center; */
-    /* max-width: 500px; */
-    margin: 0 0 0 22px;
-}
+    max-width: 500px;
+    margin: 0 0 0 45px;
+  }
   .home-img img{
     margin-top: 100px;
-    width: 62%;
-    height: 70%;
+    width: 300px;
+    height: 300px;
   }
   .about .about-content .left img{
     width: 350px;
     height: 350px;
-    }
-    /* section#home {
-      justify-content: center;
-    }     */
-   
-
+  }
 .home-info h1{
-  font: 1rem 'Titan One', cursive;
+  font: 0.9rem 'Titan One', cursive;
   text-transform: uppercase;
-  /* letter-spacing: 1px; */
-}
-
+  margin-left: 5%;
+  letter-spacing: 3px;
+  }
 .home-info h2{
   font: 0.7rem 'Fredoka One', cursive;
-  font-weight: bold;
   text-transform: uppercase;
   justify-content: center;
-  letter-spacing: 2px;
-  /* margin-left: 15%; */
-}
-
+  letter-spacing: 1px;
+  }
 .typing{
-  /* text-align: center; */
-  letter-spacing: 2px;
+  text-align: center;
 }
 }
 
 @media (max-width: 947px){
-  .max-width {
+  .max-width{
       max-width: 800px;
       padding: 0 50px;
   }
-
-  .about .about-content .column {
+  .about .about-content .column{
     width: 50%;
-}
+  }
   .about .about-content .left{
     display: flex;
     justify-content: center;
     margin: 0 auto 60px;
-}
+  }
   .about .about-content .right{
     flex: 100%;
-}
-
+  }
 section#home {
   flex-direction: column-reverse;
   padding: 0 50px;
