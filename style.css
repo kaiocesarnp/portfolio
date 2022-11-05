@@ -275,18 +275,19 @@ footer a:hover{
 .home-info h1{
   font: 0.9rem 'Titan One', cursive;
   text-transform: uppercase;
-  margin-left: 5%;
+  margin-left: 8%;
   letter-spacing: 3px;
   }
 .home-info h2{
   font: 0.7rem 'Fredoka One', cursive;
   text-transform: uppercase;
-  justify-content: center;
+  /* justify-content: center; */
   letter-spacing: 1px;
+  margin-left: 25%;
   }
-.typing{
+/* .typing{
   text-align: center;
-}
+} */
 }
 
 @media (max-width: 947px){
