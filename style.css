@@ -254,7 +254,6 @@ footer a:hover{
 	color: #c0ce03ec;
 }
 
-
 /* RESPONSIVO */
 
 @media (max-width: 1104px){
@@ -264,13 +263,14 @@ footer a:hover{
     margin: 0 0 0 45px;
   }
   .home-img img{
-    margin-top: 100px;
+    margin-top: 50px;
     width: 300px;
     height: 300px;
   }
   .about .about-content .left img{
     width: 350px;
     height: 350px;
+    margin-top: -90px;
   }
 .home-info h1{
   font: 0.9rem 'Titan One', cursive;
