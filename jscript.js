@@ -22,7 +22,7 @@ var swiper = new Swiper(".mySwiper", {
     });
 
 var typed = new Typed(".typing", {
-    strings:["aio César"],
+    strings:["César"],
     typeSpeed:100,
     backSpeed:60,
     loop:true
