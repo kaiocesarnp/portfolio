@@ -259,34 +259,42 @@ footer a:hover{
 /* RESPONSIVO */
 
 @media (max-width: 1104px){
-    .about .about-content .left img{
-        width: 350px;
-        height: 350px;
+  .home-img img{
+    margin-top: 100px;
+    width: 62%;
+    height: 70%;
+  }
+  .about .about-content .left img{
+    width: 350px;
+    height: 350px;
     }
-    section#home {
+    /* section#home {
       justify-content: center;
-    }    
-    .home-img img{
-      margin-top: 100px;
-      width: 62%;
-      height: 70%;
-}
+    }     */
+   
 
 .home-info h1{
-  font: 1.6rem 'Fredoka One', cursive;
+  font: 1rem 'Titan One', cursive;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  /* letter-spacing: 1px; */
 }
 
 .home-info h2{
-  font: 1rem 'Fredoka One', cursive;
+  font: 0.7rem 'Fredoka One', cursive;
   font-weight: bold;
   text-transform: uppercase;
   justify-content: center;
   letter-spacing: 2px;
-  margin-left: 15%;
+  /* margin-left: 15%; */
 }
+
+.typing{
+  /* text-align: center; */
+  letter-spacing: 2px;
 }
+
+}
+
 @media (max-width: 947px){
   .max-width {
       max-width: 800px;
