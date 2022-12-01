@@ -195,11 +195,15 @@ body{
   }
   
 .swiper-button-next, .swiper-button-prev {
-  color: #c90a0a;
+  color: #ff0800;
+  }
+
+.swiper-button-next:hover, .swiper-button-prev:hover{
+  color: #6b6b6b;
   }
   
 .swiper-pagination-bullet-active {
-  background-color: #ff0800 ;
+  background-color: #ff0800;
   }
   
 .projects h2{
