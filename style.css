@@ -94,6 +94,18 @@ body{
   border-radius: 50%;
 }
 
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-top: -5%;
+  margin-right: 20%;
+  list-style: none;
+}
+
+.social-image {
+  height: 2.5rem;
+}
+
 @keyframes float {
   0%, 100% {
     transform: translateY(0);
@@ -237,7 +249,7 @@ a{
 }
 
 /* FOOTER */
-/* footer{
+footer{
 background-color: rgb(255, 255, 255);
 padding: 1px;
 }
@@ -256,38 +268,6 @@ font-weight: bold;
 
 footer a:hover{
 	color: #8e9707ec;
-} */
-
-.footer {
-  /* background-color: rgb(255, 255, 255); */
-  text-align: center;
-  padding: var(--gutter-medium) 0 var(--gutter-normal);
-}
-
-.footer__social-links {
-  display: flex;
-  justify-content: center;
-  padding: var(--gutter-normal) 0;
-  list-style: none;
-}
-
-.footer__social-link-item:not(:last-of-type) {
-  margin-right: var(--gutter-small);
-}
-
-.footer__social-image {
-  height: 4rem;
-}
-
-.footer__github-buttons {
-  display: flex;
-  justify-content: center;
-}
-
-.footer__github-buttons iframe {
-  height: 2.5rem;
-  width: 84px;
-  transform: translateY(3px);
 }
 
 /* RESPONSIVO */
