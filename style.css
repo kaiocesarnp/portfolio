@@ -48,7 +48,8 @@ body{
 
 /* SECTION HOME */
 #home {
-  background: url('./img/home.jpg');
+  background: url('./img/home.jpg'); /* linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),  */
+  filter: grayscale(90%);
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -60,7 +61,6 @@ body{
   /* font-size: var(--font-size-normal); */
   box-sizing: border-box;
 }
-
 
 .home-info {
   width: 50%;
@@ -83,13 +83,13 @@ body{
   margin-left: 30%;
 }
 
-.home-img {
+/* .home-img {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
-.home-img img {
+.home_img{
   width: 500px;
   height: 500px;
   animation: float 5s ease-in-out infinite;
