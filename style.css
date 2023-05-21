@@ -114,6 +114,12 @@ body{
   height: 2.5rem;
 }
 
+.home_social_image:hover{
+  height: 2.8rem;
+  /* color:#ff0800; */
+  filter: invert(100%);
+}
+
 @keyframes float {
   0%, 100% {
     transform: translateY(0);
@@ -124,7 +130,7 @@ body{
 }
 
 /* SOBRE */
-.max-width{
+.about_div{
   max-width: 1300px;
   padding: 0 80px;
   margin: auto;
@@ -191,7 +197,6 @@ body{
     /* color: #ffffff; */
 }
 
-
 .projects h2{
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -203,7 +208,7 @@ body{
 }
 
 .project-info a:hover{
-  color: #b0b304;
+  color: #ffffff;
   cursor: pointer;
 }
   
@@ -219,15 +224,15 @@ body{
 }
   
 .swiper-button-next, .swiper-button-prev {
-  color: #ff0800;
+  color: #000000;
 }
 
 .swiper-button-next:hover, .swiper-button-prev:hover{
-  color: #6b6b6b;
+  color: #be0404;
 }
   
 .swiper-pagination-bullet-active {
-  background-color: #ff0800;
+  background-color: #000000;
 }
   
 .projects h2{
@@ -260,8 +265,57 @@ a{
   font: 0.9rem 'Poppins', sans-serif;
 }
 
+/* Contact */
+
+
+.contato_row{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none outside none;
+  background: linear-gradient(rgba(126, 118, 118, 0.1), rgba(78, 45, 45, 0.808));
+}
+
+.contato_row h2{
+  border-top: 1px solid #000000;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* padding: 10px; */
+}
+
+.info_contato{
+  /* margin-bottom: 70%; */
+  border-bottom: 1px solid #000000;
+}
+
+.info_contato p{
+  color: #000000;
+  /* max-width: var(--container-medium-width); */
+  /* text-align: justify; */
+  /* letter-spacing: 1px; */
+  line-height: 25px;
+  /* margin: 1rem 0 0 0; */
+  font: 1.3rem 'Verdana', sans-serif;
+  /* margin: 50px; */
+  padding: 100px;
+}
+
+.info_contato a{
+  font: 1.3rem 'Verdana', sans-serif;
+  /* text-align: center; */
+  color: #000000;
+  /* background: #be0404; */
+  display: flex;
+  /* align-items: center; */
+  /* justify-items: center; */
+  justify-content:center;
+}
+
+
 /* FOOTER */
 footer{
+border-top: 1px solid #000000;
 background-color: rgb(255, 255, 255);
 padding: 1px;
 }
@@ -279,7 +333,7 @@ font-weight: bold;
 }
 
 footer a:hover{
-	color: #8e9707ec;
+	color: #0a7a06ec;
 }
 
 /* RESPONSIVO */
