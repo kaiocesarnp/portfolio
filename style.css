@@ -171,15 +171,15 @@ body{
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
-  background-color: #d4d3d3;
+  background: linear-gradient(rgba(126, 118, 118, 0.1), rgba(0, 0, 0, 0.808));
 }
-  
+
 .project-img {
   width: 45%;
   border-radius: 10%;
 }
-  
-  .project-info {
+
+.project-info {
   width: 30%;
   display: flex;
   flex-direction: column;
@@ -188,11 +188,14 @@ body{
 
 .project-info p{
     font: 1rem 'Poppins', sans-serif;
+    /* color: #ffffff; */
 }
+
 
 .projects h2{
   text-transform: uppercase;
   letter-spacing: 4px;
+  /* color: #ffffff; */
 }
 
 .project-info a{
@@ -245,7 +248,8 @@ h5{
   font: 0.9rem 'Poppins', sans-serif;
   text-align: center;
   margin-top: -1px;
-   margin-bottom: -20px;
+  margin-bottom: -20px;
+  /* color: #ffffff; */
 }
 
 a{
