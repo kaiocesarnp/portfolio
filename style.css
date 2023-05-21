@@ -24,9 +24,10 @@ body{
 }
 
 .one.sticky{
-   background: #cccccc;
+   background: #000000;
    padding: 15px 0;
-   /* box-shadow: 0 1px 0 #000000; */
+   /* color:rgb(0, 0, 0); */
+   /* box-shadow: 0 1px 0 #ffffff; */
 }
 
 .nav-list {
@@ -37,13 +38,13 @@ body{
 .nav-list a {
   margin-left: -2%;
   cursor: pointer;
-  color: black;
+  color: rgb(212, 212, 212);
   font: 1rem 'Ubuntu', sans-serif;
   font-weight: bold;
 }
 
 .nav-list a:hover{
-  color: #fff;
+  color: #3a4e72;
 }
 
 /* SECTION HOME */
@@ -90,7 +91,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-} */
+} com a imagem de perfil, use este */
 
 .home_img{
   width: 500px;
