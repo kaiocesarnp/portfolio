@@ -53,6 +53,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-around;
+  /* justify-content: center; */
   /* padding: 5px 20px; */
   height: 100vh;
   background-size: cover;
@@ -78,9 +79,11 @@ body{
 
 .home-info h2{
   text-transform: uppercase;
+  /* margin-top: -20px;  com a imagem de perfil, use este*/
   margin-top: -20px;
   letter-spacing: 4px;
-  margin-left: 30%;
+  /* margin-left: 30%; com a imagem de perfil, use este */
+  margin-left: 33%;
 }
 
 /* .home-img {
@@ -97,15 +100,16 @@ body{
   border-radius: 50%;
 }
 
-.social-links {
+.home_ul{
   display: flex;
   justify-content: center;
   margin-top: -5%;
-  margin-right: 20%;
+  /* margin-right: 20%; com a imagem de perfil, use este */
+  margin-right: 12%;
   list-style: none;
 }
 
-.social-image {
+.home_social_image{
   height: 2.5rem;
 }
 
@@ -281,15 +285,28 @@ footer a:hover{
     max-width: 500px;
     margin: 0 0 0 45px;
 }
-  .home-img img{
+  /* .home-img img{
     margin-top: 10px;
     width: 300px;
     height: 300px;
+} */
+
+.home_img{
+  margin-top: 10px;
+  width: 300px;
+  height: 300px;
 }
-  .about .about-content .left img{
-    width: 350px;
-    height: 350px;
-    margin-top: -90px;
+
+.home_social_image{
+  height: 2.8rem;
+  margin-left: -25%;
+  margin-top: -10px;
+}
+
+.about .about-content .left img{
+  width: 350px;
+  height: 350px;
+  margin-top: -90px;
 }
 .home-info h1{
   font: 0.9rem 'Titan One', cursive;
