@@ -82,7 +82,7 @@ body{
   margin-top: -23px;
   letter-spacing: 5px;
   /* margin-left: 30%; com a imagem de perfil, use este */
-  margin-left: 13%;
+  margin-left: 12%;
 }
 
 /* .home-img {
@@ -356,13 +356,13 @@ footer a:hover{
   margin-top: -90px;
 }
 .home-info h1{
-  font: 0.9rem 'Titan One', cursive;
+  font: 1.3rem 'Titan One', cursive;
   text-transform: uppercase;
   margin-left: 15%;
   letter-spacing: 2px;
 }
 .home-info h2{
-  font: 0.7rem 'Fredoka One', cursive;
+  font: 1rem 'Fredoka One', cursive;
   text-transform: uppercase;
   /* justify-content: center; */
   letter-spacing: 1px;
