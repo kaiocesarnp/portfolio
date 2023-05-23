@@ -350,19 +350,20 @@ footer a:hover{
   margin-top: -10px;
 }
 
-.about .about-content .left img{
+/* .about .about-content .left img{
   width: 350px;
   height: 350px;
   margin-top: -90px;
-}
+} */
+
 .home-info h1{
-  font: 1.3rem 'Titan One', cursive;
+  font: 0.9rem 'Titan One', cursive;
   text-transform: uppercase;
   margin-left: 15%;
   letter-spacing: 2px;
 }
 .home-info h2{
-  font: 1rem 'Fredoka One', cursive;
+  font: 0.7rem 'Fredoka One', cursive;
   text-transform: uppercase;
   /* justify-content: center; */
   letter-spacing: 1px;
