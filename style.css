@@ -179,7 +179,9 @@ body{
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
-  background: linear-gradient(rgba(126, 118, 118, 0.1), rgba(0, 0, 0, 0.808));
+  /* background: linear-gradient(rgba(126, 118, 118, 0.1), rgba(0, 0, 0, 0.808)); */
+  background: -webkit-linear-gradient(to right, #737379, #2e2f30);
+  background: linear-gradient(to right, #b1b1b1, #636366);
 }
 
 .project-img {
