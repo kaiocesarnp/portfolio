@@ -26,8 +26,13 @@ body{
 .one.sticky{
    background: #000000;
    padding: 15px 0;
-   /* color:rgb(0, 0, 0); */
+   color:#ffffff;
    /* box-shadow: 0 1px 0 #ffffff; */
+}
+
+.one.sticky a{
+  /* color:#ffffff; */
+  filter: invert(80%);
 }
 
 .nav-list {
@@ -38,13 +43,13 @@ body{
 .nav-list a {
   margin-left: -2%;
   cursor: pointer;
-  color: rgb(212, 212, 212);
+  color: rgb(0, 0, 0);
   font: 1rem 'Ubuntu', sans-serif;
   font-weight: bold;
 }
 
 .nav-list a:hover{
-  color: #3a4e72;
+  color: #ffffff;
 }
 
 /* SECTION HOME */
@@ -180,8 +185,7 @@ body{
   align-content: center;
   justify-content: center;
   /* background: linear-gradient(rgba(126, 118, 118, 0.1), rgba(0, 0, 0, 0.808)); */
-  background: -webkit-linear-gradient(to right, #737379, #2e2f30);
-  background: linear-gradient(to right, #b1b1b1, #636366);
+  background: linear-gradient(to right, #999999, #b8afaf);
 }
 
 .project-img {
