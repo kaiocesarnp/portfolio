@@ -384,6 +384,15 @@ footer a:hover{
   text-align: center;
 } */
 
+.projects h3{
+  font: 1.2rem 'Adamina', sans-serif;
+}
+
+.project-info p{
+  font: 0.9rem 'Poppins', sans-serif;
+  white-space: nowrap; /*impede que o texto seja quebrado em várias linhas*/
+}
+
 footer p{
   font: 0.8rem 'Alatsi', serif;
   }
