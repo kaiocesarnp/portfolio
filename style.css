@@ -55,7 +55,7 @@ body{
 /* SECTION HOME */
 #home {
   background: url('./img/home.jpg'); /* linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),  */
-  filter: grayscale(60%);
+  filter: grayscale(100%);
   display: flex;
   align-items: center;
   justify-content: space-around;
