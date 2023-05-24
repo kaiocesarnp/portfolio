@@ -383,6 +383,10 @@ footer a:hover{
 /* .typing{
   text-align: center;
 } */
+
+footer p{
+  font: 0.8rem 'Alatsi', serif;
+  }
 }
 
 @media (max-width: 947px){
