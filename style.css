@@ -332,12 +332,12 @@ footer a:hover{
 
 /* RESPONSIVO */
 
-@media (max-width: 2064px) {
+/*@media (max-width: 2064px) {
   .max-width {
     max-width: 800px;
     padding: 0 50px;
   }
-}
+}*/
 
 @media (max-width: 1104px){
   .nav-list{
