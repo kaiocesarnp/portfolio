@@ -429,6 +429,54 @@ footer p{
   flex: 100%;
 }
 
+	/*----------------------------------------------*/
+/*Para telas menores que 947px:*/
+/*@media (max-width: 800px) {
+  .max-width {
+    max-width: 700px;
+    padding: 0 30px;
+  }
+  .about .about-content .column {
+    width: 100%;
+  }
+  .about .about-content .left {
+    margin: 0 auto 40px;
+  }
+  .about .about-content .right {
+    flex: 100%;
+  }
+  #home {
+    padding: 0 30px;
+  }
+}*/
+
+/*Para telas maiores que 1105px:*/
+/*@media (min-width: 1105px) {
+  .nav-list {
+    margin-left: 20px;
+  }
+  .home_social_image {
+    margin-left: -30%;
+    margin-top: -20px;
+  }
+  .home-info h1 {
+    font-size: 1.6rem;
+  }
+  .home-info h2 {
+    font-size: 1.1rem;
+  }
+  .projects h3 {
+    font-size: 1.4rem;
+  }
+  .project-info p {
+    font-size: 1rem;
+  }
+  footer p {
+    font-size: 0.9rem;
+  }
+}
+*/
+	/*----------------------------------------------*/
 /* Projects */
 .swiper-slide {
   flex-direction: column;
